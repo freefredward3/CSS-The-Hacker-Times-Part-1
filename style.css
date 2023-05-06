@@ -14,11 +14,18 @@ body{
 img{
     width:100%;
 }
-section{
+/*section{
     display: inline-block;
     width: 45%;
     margin-inline: 10px;
+}*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
 }
+
 li{
     display: inline-block;
     margin: 0 auto;
@@ -49,6 +56,9 @@ nav{
     text-align: center;
     border-top: 1px solid #777 ;
     border-bottom: 1px solid #777;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 main h2{
     font-family: 'Roboto Slab';
